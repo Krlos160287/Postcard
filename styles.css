@@ -1,0 +1,49 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+h1 {
+	width: 500px;
+	margin: 0px;
+}
+.postcard-body {
+	display: flex;
+}
+#name,
+#mail,
+#comment {
+	color: grey;
+	text-decoration: underline;
+	width: auto;
+	font-family: "Courier New", Courier, monospace;
+	font-size: medium;
+}
+.postcard-body {
+	align-items: center !important;
+	justify-content: center !important;
+}
+.button {
+	background-color: grey;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.postcard-footer {
+	text-align: center;
+}
